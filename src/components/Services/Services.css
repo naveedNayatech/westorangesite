@@ -1,0 +1,87 @@
+
+
+.serviceWrapper {
+    padding: 3rem 4rem;
+    background-color: #CDCDCD;
+}
+
+.serviceWrapper ul {
+    margin: 0px;
+    color: var(--dark-blue);
+    text-transform: uppercase;
+}
+
+.servicesCardHeading {
+    padding-top: 1rem;
+    color: #FFF;
+    font-size:22px;
+  }
+
+  .servicesCardText {
+    color: #FFF;
+    font-size:16px;
+  }
+
+  .card1{
+    background-color: var(--dark-blue);
+    padding: 30px;
+  }
+
+  .card2 {
+    background-color: var(--yellow);
+    padding: 30px;
+  }
+
+  .card3 {
+    background-color: var(--skyblue);
+    padding: 30px;
+  }
+
+
+  .container {
+    margin: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    flex: 0 0 calc(33.33% - 20px); /* 33.33% width with 10px margin-right */
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box; /* include padding and border in the width calculation */
+    display: flex;
+    flex-direction: column;
+}
+  
+  /* To remove the margin-right from the last column in each row */
+  .column:nth-child(3n) {
+    margin-right: 0;
+  }
+  
+  @media screen and (max-width: 600px) {
+    
+    .serviceWrapper {
+        padding: 1rem 2rem;
+    }
+
+    .serviceWrapper ul {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    .servicesCardHeading {
+        padding-top: 1rem;
+        color: #FFF;
+        font-size:18px;
+        text-align: justify;
+      } 
+    
+    .column {
+      flex-basis: calc(100%); /* 50% width with 10px margin-right in mobile view */
+    }
+  
+    /* To remove the margin-right from the last column in mobile view */
+    .column:nth-child(2n) {
+      margin-right: 0;
+    }
+  }

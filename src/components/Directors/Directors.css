@@ -1,0 +1,40 @@
+.directorsWrapper{
+  background-color: var(--lightgray);
+  padding: 6rem 6rem;
+  text-align: center;
+  justify-content: center;
+} 
+
+.profile-container {
+    position: relative;
+    display: inline-block;
+}
+  
+  .profile-image {
+    width: 350px; /* Adjust the size of the image as needed */
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .profile-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 181, 204, 0.7); /* Adjust opacity and color as needed */
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .profile-name {
+    margin: 0;
+    font-size: 22   px;
+  }
+  
+  .profile-description {
+    margin: 0;
+    font-size: 14px;
+  }

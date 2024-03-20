@@ -1,0 +1,15 @@
+/* video */
+.video-container {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    margin-top: -20px;
+    background-color: var(--light-gray);
+    z-index: 999;
+}
+
+.responsive-video {
+    width: 90%;
+    margin: 2rem 4rem;
+    border-radius: 25px;
+}

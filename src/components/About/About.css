@@ -1,0 +1,51 @@
+.aboutWrapper {
+    background-color: var(--lightgray);
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.about {
+    margin-top:10rem;
+    width: 42%;
+    padding-left: 4rem;
+}
+
+
+.aboutHeading {
+    font-size: 28px;
+    color: var(--dark-blue);
+    font-weight: bold;
+}
+
+.aboutText {
+    color: var(--dark-blue);
+    text-align: justify;
+    font-size: 18px;
+    line-height: 2rem;
+    margin-right: 3rem;
+    font-weight: bold;
+}
+
+.aboutHR {
+    border: 2px solid var(--dark-blue);
+    margin-right: 1rem;
+    margin-top: 5rem;
+}
+
+.aboutLink {
+    color: var(--dark-blue);
+    text-decoration: underline;
+    margin-top: 5rem;
+    font-weight: bold;
+    letter-spacing:1px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.aboutWrapper img {
+    width: 42rem;
+    height: 42rem;
+
+}
+

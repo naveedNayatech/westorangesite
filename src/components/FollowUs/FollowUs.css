@@ -1,0 +1,29 @@
+.followUsWrapper {
+    padding: 2rem 6rem;
+    background-color: var(--lightgray);
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.link {
+    border-radius: 999px;
+    border: 3px dotted var(--dark-blue);
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.link:hover {
+   background-color:var(--lightgray);
+   transition: all 0.3s;
+}
+
+.link i {
+    font-size: 70px;
+}

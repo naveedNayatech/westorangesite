@@ -1,0 +1,120 @@
+.header-container {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .slider-item img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(8, 69, 159, 0.926); /* Black overlay color */
+  }
+
+  /* Header Area */
+  .headerArea {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header-left {
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    margin-top: 5%;
+  }
+
+  .header-right {
+    width: 50%;
+    margin-top: 10%;
+  }
+  
+  .headerHeading {
+    font-size:52px;
+    color: #fff;
+    text-transform: capitalize;
+  }
+
+  .headerHeadingSecondary {
+    font-size:52px;
+    color: var(--yellow);
+    text-transform: capitalize;
+  }
+
+  .headerText{
+    font-size:20px;
+    color: white;
+    text-align: justify;
+    padding-right: 6rem;
+  }
+
+  .headerConsultBtn {
+    background-color: white;
+    padding: 22px;
+    border: none;
+    display: block;
+    cursor: pointer;
+    color: var(--dark-blue);
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+  }
+
+  .strokeArea {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+
+  .centered {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .stroke-text {
+    color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--yellow);
+    font-size: 310px;
+    z-index: 0;
+  }
+
+
+
+  /* left side of header */
+  .headerLeftTextArea {
+    position: relative;
+    margin: 0 auto;
+    width: 32rem;
+    margin-top: -120px;
+    background-color: var(--yellow);
+    padding: 4rem;
+    z-index: 1;
+  }
+
+  .headingHelpingText{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .headerLeftTextArea span {
+    text-transform: uppercase;
+    color: white;
+    font-size:28px;
+    text-align: justify;
+    line-height: 3rem;
+  }

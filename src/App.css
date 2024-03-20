@@ -1,0 +1,55 @@
+/* variables */
+:root {
+  --lightgray: #CDCDCD;
+  --dark-blue: #2356A7;
+  --light-blue: #2969D0;
+  --skyblue: #126DFD;
+  --yellow: #7CBA43;
+  --caloryCard: #656565;
+  --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+  --appColor:  #3c3f45;
+}
+
+
+*{
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.mainHeading {
+  font-size: 32px;
+  color: var(--dark-blue);
+  text-transform: capitalize;
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+.App {
+  mix-blend-mode: overlay;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: var(--light-gray);
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.text-center {
+  text-align: center;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 600px) {
+  .mainHeading {
+    padding-top: 20px;
+    font-size: 18px;
+    color: var(--dark-blue);
+    padding-left: 10px;
+    text-align: justify;
+    justify-content: center
+  }   
+}

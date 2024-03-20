@@ -1,0 +1,96 @@
+.footer {
+    background-color: var(--light-blue);
+    color: #fff;
+}
+
+.footerSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+.footer-column {
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-column img {
+    width: 300px; /* Adjust as needed */
+}
+
+.textbox {
+    margin-top: 2rem;
+    width: 300px;
+    position: relative;
+}
+
+.textbox input {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+    padding: 16px;
+    background-color: transparent;
+}
+
+.textbox input:focus {
+    outline: none;
+    border-color: #007bff; /* Change color on focus */
+}
+
+::placeholder {
+    color: #FFF;
+    opacity: 1; /* Firefox */
+}
+
+
+.footerBtn {
+    margin-top: 10px;
+    width: 300px;
+    background-color: white;
+    padding: 22px;
+    border: none;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    color: var(--dark-blue);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 20px;
+}
+
+.footer-column ul li a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.social-icons span{
+    justify-content: center;
+    font-size: 32px;
+    padding: 0px 10px;
+}
+
+.social-icons li {
+    margin: 0 5px;
+}
+
+#map {
+    width: 100%;
+    height: 200px; /* Adjust as needed */
+}
+
+.footer-bootom {
+    background-color: var(--light-blue);
+}
